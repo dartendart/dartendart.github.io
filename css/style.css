@@ -186,6 +186,31 @@ p {
 
 @media (min-resolution: 200dpi){
     body {
-        font-size: 22pt;
+        font-size: 24pt;
+    }
+
+    .timeline-capital::after, .timeline-working::after {
+        left: 26px;
+    }
+
+    .container {
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 25px;
+    }
+
+    .container::before {
+        left: 40px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent goldenrod transparent transparent;
+    }
+
+    .left::after, .right::after {
+        left: 15px;
+    }
+
+    .right {
+        left: 0%;
     }
 }
