@@ -183,3 +183,9 @@ p {
         left: 0%;
     }
 }
+
+@media (min-resolution: 200dpi){
+    body {
+        font-size: 18pt;
+    }
+}
